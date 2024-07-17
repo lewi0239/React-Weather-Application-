@@ -1,0 +1,24 @@
+.location-card {
+  background-color: #f1f1f1;
+  padding: 1.25rem;
+  margin: 1.6rem;
+  cursor: pointer;
+  border: 0.06rem solid #ddd;
+  text-align: center;
+}
+
+.location-card:hover {
+  background-color: #ddd;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.33rem 1.6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
