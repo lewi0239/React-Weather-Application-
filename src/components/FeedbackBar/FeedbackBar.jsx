@@ -14,7 +14,7 @@ const FeedbackBar = ({ message, clearMessage }) => {
     <div className="feedback-bar">
       <span className="message-text">{message}</span>
       <button className="close-button" onClick={clearMessage}>
-        <img src="/src/assets/closefeedbackbar.png" alt="Close" />
+        <img src="./src/assets/closefeedbackbar.png" alt="Close" />
       </button>
     </div>
   ) : null;
